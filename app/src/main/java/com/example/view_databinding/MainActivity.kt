@@ -29,9 +29,9 @@ class MainActivity : AppCompatActivity() {
 
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
-        binding.showMyname = showName
         binding.boton.setOnClickListener {
             viewModel.setMyName("Carlos")
+            viewModel.setGreeting("Hola a Todos!!")
         }
 
         setContentView(binding.root)
