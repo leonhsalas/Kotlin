@@ -17,6 +17,6 @@ class MyViewModel:ViewModel() {
     }
 
     fun setGreeting(greeting: String) {
-        _greeting.value = "Hola a todos!!"
+        _greeting.value = greeting
     }
 }
